@@ -1,0 +1,7 @@
+.featured-item{
+    background-image: url("https://i.ibb.co/pKbF05z/Rectangle-14.png");
+    background-color: rgba(21, 21, 21, 0.7);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+}
