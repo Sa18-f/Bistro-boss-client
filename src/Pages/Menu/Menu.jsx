@@ -23,13 +23,13 @@ const Menu = () => {
             {/* offered */}
             <MenuCategory items={offered}></MenuCategory>
             {/* dessert */}
-            <MenuCategory items={dessert} title="Desserts" img="https://i.ibb.co/ThvXDd0/istockphoto-1472804671-612x612.jpg"></MenuCategory>
+            <MenuCategory items={dessert} title="dessert" img="https://i.ibb.co/ThvXDd0/istockphoto-1472804671-612x612.jpg"></MenuCategory>
             {/* pizza */}
-            <MenuCategory items={pizza} title="pizzas" img="https://i.ibb.co/bdBpW0x/bulbul-ahmed-3sv-Nm-Qj8-X8-unsplash.jpg"></MenuCategory>
+            <MenuCategory items={pizza} title="pizza" img="https://i.ibb.co/bdBpW0x/bulbul-ahmed-3sv-Nm-Qj8-X8-unsplash.jpg"></MenuCategory>
             {/* soup */}
-            <MenuCategory items={soup} title="Soups" img="https://i.ibb.co/hB3SFg9/ella-olsson-fx-JTl-g-Dh28-unsplash.jpg"></MenuCategory>
+            <MenuCategory items={soup} title="soup" img="https://i.ibb.co/hB3SFg9/ella-olsson-fx-JTl-g-Dh28-unsplash.jpg"></MenuCategory>
             {/* pizza */}
-            <MenuCategory items={salad} title="salads" img="https://i.ibb.co/27zLq3r/yoav-aziz-Ai-HJi-RCw-B3w-unsplash.jpg"></MenuCategory>
+            <MenuCategory items={salad} title="salad" img="https://i.ibb.co/27zLq3r/yoav-aziz-Ai-HJi-RCw-B3w-unsplash.jpg"></MenuCategory>
         </div>
     );
 };
