@@ -2,8 +2,6 @@ import { useNavigate } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
 import useAxiosPublic from "../../Hooks/useAxiosPublic";
 
-
-
 const SocialLogin = () => {
     const {googleSignIn} = useAuth();
     const axiosPublic = useAxiosPublic();
