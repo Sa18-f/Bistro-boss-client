@@ -19,7 +19,7 @@ const Navbar = () => {
         <li><Link to="/menu">Our Menu</Link></li>
         <li><Link to="/order/salad">Order Food</Link></li>
         <li>
-            <Link to="/"><button className="btn -mt-2">
+            <Link to="/dashboard/cart"><button className="btn -mt-2">
                 <FaShoppingCart></FaShoppingCart>
                 <div className="badge badge-secondary">+{cart.length}</div>
             </button></Link>
